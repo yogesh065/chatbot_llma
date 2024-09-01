@@ -102,6 +102,7 @@ def main():
             if chunk.choices[0].delta.content:
                 for ch in chunk.choices[0].delta.content:
                     full_response += ch
+                    time.sleep(0.3)
                     message_placeholder.write(full_response)
         
         # Add assistant response to chat history
