@@ -9,7 +9,7 @@ api_key=st.secrets["key_api"]["GROQ_API_KEY"]
 st.set_page_config(page_title="Chat with AI-Yogesh", layout='wide')
 
 new_chat_id = f'{time.time()}'
-MODEL_ROLE = 'Yogesh'
+MODEL_ROLE = 'assistant'
 AI_AVATAR_ICON = '✨'
 
 # Create a data/ folder if it doesn't already exist
