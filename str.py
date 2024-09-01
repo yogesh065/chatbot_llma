@@ -44,7 +44,7 @@ with st.sidebar:
     # TODO: Give user a chance to name chat
     st.session_state.chat_title = f'ChatSession-{st.session_state.chat_id}'
 
-st.write('# Chat with AI')
+st.write('# Chat with Yogesh')
 
 # Function to load chat history safely
 def load_chat_history(chat_id):
