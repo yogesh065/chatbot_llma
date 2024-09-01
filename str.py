@@ -5,7 +5,7 @@ import streamlit as st
 from groq import Groq
 from collections import deque
 api_key=os.getenv("GROQ_API_KEY")
-api_key=st.secrets[key_api]["GROQ_API_KEY"]
+api_key=st.secrets["key_api"]["GROQ_API_KEY"]
 st.set_page_config(page_title="Chat with AI", layout='wide')
 
 new_chat_id = f'{time.time()}'
